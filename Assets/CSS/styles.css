@@ -264,13 +264,13 @@ nav{
 .container1{
     background-color: lightgray;
     width: auto;
-    height: fit-content;
+    height: auto;
     margin: 20px;
     overflow-y: auto;
 }
 .child-container{
     background-color: white;
-    padding: 5px;
+    padding-top: 15px;
     width: fit-content;
     margin-left: auto;
     margin-right: auto; 
