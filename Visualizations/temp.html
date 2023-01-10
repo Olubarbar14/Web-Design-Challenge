@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>temperature Vs Latitude</title>
-
-    <!-- Add a title here -->
+   <title>Temperasture vs City Latitude</title>
 
     <!-- Boostrap Stylesheet -->
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="screen">
@@ -19,51 +17,49 @@
   </head>
 
   <body>
-    
-   <section>
-    <div>
-       <!-- Start of navbar --> 
-       <nav>
+    <section>
       <div>
-        <h1 class="header">Temperature Vs City Latitude</h1>
-      </div>
-      <div class="nav-links">
-        <ul>
-          <li><a href="#">Plot</a>
-            <div class="dropdown">
-              <ul>
-                <li><a href="./cloudiness.html">Cloudiness</a></li>
-                <li><a href="./humidity.html">Humidity</a></li>
-                <li><a href="./temp.html">Temp</a></li>
-                <li><a href="./wind.html">Wind</a></li>
-                <li><a href="../index.html">Home</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="../compare.html">Comparison</a></li>
-          <li><a href="../data.html">Data</a></li>
-        </ul>
-      </div>
-       <!-- End of navbar -->
-     </nav> 
-     <!-- Start of container -->
-     <div class="grid-container">
-       <!-- Start of Visualizations imageNav Area -->
-       <DIV class="grid-child Image">
-        <img src="../Assets/Images/Fig1.png" class="Temp-img">
-       </DIV>
-       <div class="grid-child Temp-discussion">
-        <p>
-          The visualization on the left shows that there is a negative correlation between 
-          temperature and latitude. As latitude increases, temperature is decreasing
-        </p>
-       </div>
-       
-        <!-- End of the Visualizations imageNav Area -->
-      
-     </div>
-      <!-- End of container -->
-     </section>
+         <!-- Start of navbar --> 
+         <nav>
+        <div>
+          <h1 class="header">Temperasture Vs City Latitude</h1>
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="#">Plot</a>
+              <div class="dropdown">
+                <ul>
+                  <li><a href="./cloudiness.html">Cloudiness</a></li>
+                  <li><a href="./humidity.html">Humidity</a></li>
+                  <li><a href="./temp.html">Temp</a></li>
+                  <li><a href="./wind.html">Wind</a></li>
+                  <li><a href="../index.html">Home</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="../compare.html">Comparison</a></li>
+            <li><a href="../data.html">Data</a></li>
+          </ul>
+        </div>
+         <!-- End of navbar -->
+       </nav>
+       <div class="containerT">
+        <div class="row">
+          <div class="col-xs-8"> 
+            <img src="../Assets/Images/Fig3.png">
+          </div>
+          <div class="col-xs-4">
+            <p>
+              The visualization on the left shows that there is a negative correlation between 
+              temperature and latitude. As latitude increases, temperature is decreasing
+            </p>   
+          </div>
+
+        </div>
+      </div>  
+       </section>
+
+    <!-- jQuery CDN -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 
     <!-- Bootstrap CDN -->
@@ -71,3 +67,4 @@
   </body>
 
 </html>
+

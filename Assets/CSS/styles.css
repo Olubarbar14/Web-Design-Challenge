@@ -37,6 +37,7 @@ nav{
 .nav-links {
     flex: 1;
     text-align: right;
+    z-index: 180;
 }
 .nav-links ul li {
     list-style: none;
@@ -95,9 +96,11 @@ nav{
     border-radius: 1px;
 }
 .container{
-    margin-top: 50px;
+    margin: 10px;
+    display: flex;
     background-color: lightgray;
-    padding: 25px;
+    padding: 20px;
+    justify-content: space-between;
   
     @media (max-width:768px) {
         width:fit-content;
@@ -121,7 +124,8 @@ nav{
 .col-xs-4{
     background-color: white;
     width: 40%;
-    margin-right: 100px;
+    margin-right: 115px;
+    margin-top: 50px;
 }
 .col-xs-4 img{
     width: 150px;
@@ -131,92 +135,6 @@ nav{
 }
 .col-xs-2{
     background-color: lightgray;
-}
-.Temp-img{
-    width: 600px;
-    margin: 20px;
-    @media (max-width:768px) {
-        width: 300px;
-        margin: 5px;   
-    }   
-}  
-.Hum-img{
-    width: 600px;
-    margin: 20px;
-    @media (max-width:768px) {
-        width: 300px;
-        margin:5px;
-    }
-}
-.Cloud-img{
-    width: 600px;
-    margin: 20px;
-    @media (max-width:768px) {
-        width: 300px;
-        margin: 5px;
-        
-    }
-}
-.Wind-img{
-    width: 600px;
-    margin: 20px;
-    @media (max-width:768px) {
-        width: 300px;
-        margin: 5px;        
-    }
-}
-.cloud-discussion{
-    background-color: white;
-    height: 150px;
-    width: 500px;
-    margin-bottom: 50px;
-    margin-left: 100px;
-    margin-top: 20px;
-    margin-right: 100px;
-}
-.cloud-discussion p{
-    padding: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
-}
-.Hum-discussion{
-    background-color: white;
-    height: 150px;
-    width: 400px;
-    margin-bottom: 50px;
-    margin-left: 100px;
-    margin-top: 20px;
-}
-.Hum-discussion p{
-    padding: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
-}
-.wind-discussion{
-    background-color: white;
-    height: 150px;
-    width: 400px;
-    margin-bottom: 50px;
-    margin-left: 100px;
-    margin-top: 20px;
-}
-.wind-discussion p{
-    padding: 10px;
-    font-size: large;
-    font-family: 'Courier New', Courier, monospace;
-}
-.Temp-discussion{
-    background-color: white;
-    height: 150px;
-    width: 400px;
-    margin-bottom: 50px;
-    margin-left: 100px;
-    margin-top: 20px;
-}
-.Temp-discussion p{
-    padding: 10px;
-    font-size: large;
-    font-family: 'Courier New', Courier, monospace;
 }
 .grid-container1{
     display: grid;
@@ -294,4 +212,81 @@ nav{
 .grid-container > div{
     background-color: white;
     padding: 20px 0;
+}
+.col-xs-8{
+    background-color: white;
+    width: 50%;
+    padding: 10px;
+    @media (max-width:768px) {
+        width: 50%;
+        height: 100%;
+        margin: 10px;
+    }
+}
+.col-xs-4 p{
+    padding: 10px;;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.containerC{
+    margin: 10px;
+    display: flex;
+    background-color: lightgray;
+    padding: 20px;
+    justify-content: space-between;
+  
+    @media (max-width:768px) {
+        width:fit-content;
+        height: 100%;
+        margin: 10px;
+    }
+}
+.col-xs-8 img{
+    width: 600px;
+    padding: 10px;
+    margin-right: 20px;
+    @media (max-width:768px) {
+        width: 200px;
+        height: 100%;
+        margin: 10px;
+    }
+}
+.containerH{
+    margin: 10px;
+    display: flex;
+    background-color: lightgray;
+    padding: 20px;
+    justify-content: space-between;
+  
+    @media (max-width:768px) {
+        width:fit-content;
+        height: 100%;
+        margin: 10px;
+    }
+}
+.containerT{
+    margin: 10px;
+    display: flex;
+    background-color: lightgray;
+    padding: 20px;
+    justify-content: space-between;
+  
+    @media (max-width:768px) {
+        width:fit-content;
+        height: 100%;
+        margin: 10px;
+    }
+}
+.containerW{
+    margin: 10px;
+    display: flex;
+    background-color: lightgray;
+    padding: 20px;
+    justify-content: space-between;
+  
+    @media (max-width:768px) {
+        width:fit-content;
+        height: 100%;
+        margin: 10px;
+    }
 }
